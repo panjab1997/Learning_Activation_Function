@@ -5,7 +5,7 @@ Activation functions are crucial components in Artificial Neural Networks (ANNs)
 
 Dataset used in this experiment - Bank-Note, Iris, Wisconsin Breast Cancer, MNIST 
 
-## Initial Setting & Methodology: 
+## Initial Setting : 
 
 The methodology employed in this work involves the utilization of a 1-hidden layer neural network architecture for adaptive activation function (AF) selection. The main goal is to investigate the effectiveness of adaptively selecting the activation function in improving the network's performance in classifying samples from a dataset. The network architecture comprises an input layer, a hidden layer with the Ada_act custom layer, and an output layer. The Ada_act layer implements a flexible activation function using three parameters: k0, k1, and k2. These parameters are sampled from a distribution during the initialization process, allowing the network to explore different activation function configurations. The parameters k0, k1, and k2 are sampled from a distribution with specific ranges. 
 
